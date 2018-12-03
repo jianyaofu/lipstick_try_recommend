@@ -1,0 +1,17 @@
+requests
+bs4
+numpy
+pandas
+time
+io
+PIL
+random
+re
+json
+colorsys
+nltk
+scipy
+wordcloud
+tkinter
+cv2
+face_recognition
