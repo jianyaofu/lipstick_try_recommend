@@ -76,14 +76,16 @@ To install [face_recognition](https://github.com/ageitgey/face_recognition), whi
 3. In the interface, upload an headshot image without any cover on the lip by clicking "Select an image" button (In this instruction, we use the [test_image.jpg](https://www.google.com/search?q=face&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjYxP6bjoLfAhVCn-AKHatkCsUQ_AUIDigB&biw=1504&bih=861#imgrc=hIOwS97FhaduqM:)).
 4. After uploading the image, choose the color by clicking “Choose a color” button and then clicking "OK".
 
-![](https://github.com/jianyaofu/lipstick_try_recommend/blob/master/test1.jpg)
+<img src="https://github.com/jianyaofu/lipstick_try_recommend/blob/master/test1.jpg" width = "512" height = "417"/>
 
 5. After a color is chosen, click “Apply” button and the chosen color will be applied to the lip area in the image and display the new image. Meanwhile, 5 lipsticks whose colors are the closest to the chosen color will be selected and their brand name + lipstick color(/number) will be displayed at the bottom left corner. 
 
-![](https://github.com/jianyaofu/lipstick_try_recommend/blob/master/test2.jpg)
+
+<img src="https://github.com/jianyaofu/lipstick_try_recommend/blob/master/test2.jpg" width = "512" height = "417"/>
 
 6. Among the five recommended lipsticks, the user can click the one he/she is interested. Then the program will search for the reviews associated with the lipstick the user chooses, and draw a word cloud of the reviews and display it at the bottom right corner.
 
-![](https://github.com/jianyaofu/lipstick_try_recommend/blob/master/test3.jpg)
+
+<img src="https://github.com/jianyaofu/lipstick_try_recommend/blob/master/test3.jpg" width = "512" height = "417"/>
 
 7. User can also click other lipsticks to see the wordcloud of them. User can also choose another color and go through the same process again for the new color without quitting the current interface and restarting a new one. *Note: Getting a wordcloud of reviews may take a while to complete, so if nothing is prompted up after you click some lipstick, it’s because it takes time to get and process the reviews (some lipsticks have long reviews) not because the program is interrupted due to some error.*
