@@ -20,14 +20,14 @@ Use requests and bs4 module to get all the links of lipsticks on Sephora product
 ### Recommending Lipsticks with the Closest Color and Analysis(Wang)
 Utilize the rgb returned by the web scraping step, clean data, fill the none values and change rgb type from string to tuple. Use squared Euklidian distance to get the distance from different lipstick colors and return 5 closest products to the user.  
 
-*Note: the following analyses are shown in the notebook, but is worthwhile to implement them in the interface in the future*
+*Note: the following analyses are shown in the notebook but not shown on the interface, however, but is worthwhile to implement them in the interface in the future*
 
 Text Summary, Sensitive Analysis and Price Analysi: build up a sensitive analysis based on the reviews get from scraping part. Established get_pos_neg_words function from the http://ptrckprry.com to identify the words and get probability of the positive word and negative word inside the reviews. Finally, get frequency of words and return 2 sentence that have most high frequency word as the summary for the reviews. Build a function to return the price of specific product. Then conduct a price analysis based on different product, brand and category of the product to get the average price in different field. 
 
 ### Text Mining and Analysis (Zhu)
 Build a search link function to take what the user wanted and return a search link for the information. After that, using reviews returned by the web scraping function, the word cloud function firstly conducts some text cleaning and transforming, and then delete some words base on reviews samples and filter words tags to have a better output. Finally, the function plots the word cloud in the lip shape and saves the image to file.
 
-*Note: the following analyses are shown in the notebook, but is worthwhile to implement them in the interface in the future*
+*Note: the following analyses are shown in the notebook but not shown on the interface, however, it is worthwhile to implement them on the interface in the future*
 
 Data cleaning, brand emotion analysis: for data cleaning part, NaN values in the results csv and some other unwanted information such as lipstick sets are deleted. The groupby function is applied for choosing the top 5 loved lipsticks as the first recommendation for the user. Brand emotion analysis part gives back the information about emotions that come from customers, and it gives a straight impression of customers’ feeling about the brand.
 
